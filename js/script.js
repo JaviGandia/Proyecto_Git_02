@@ -1,3 +1,5 @@
+
+
 function saludo(){
-    alert("Hola");
+    alert("Hola " + document.getElementById("nombre").value);
 }
